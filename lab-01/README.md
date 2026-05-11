@@ -47,7 +47,7 @@ This is a comment.
 ```
 
 <details>
-<summary>View Solution Code</summary>
+<summary><kbd>View Solution Code</kbd></summary>
 
 ```cpp
 #include <iostream>
@@ -165,7 +165,7 @@ Output:
 this is not a keyword.
 ```
 <details>
-<summary>View Solution Code</summary>
+<summary><kbd>View Solution Code</kbd></summary>>
 
 ```cpp
 #include<iostream>
@@ -210,7 +210,7 @@ The file handling programs use:
 A sample file named `text.txt` is created and used for testing comment detection.
 
 <details>
-<summary>View Solution Code</summary>
+<summary><kbd>View Solution Code</kbd></summary>
 
 ```cpp
 #include<iostream>
@@ -251,3 +251,4 @@ int main(){
 ```
 
 </details>
+
