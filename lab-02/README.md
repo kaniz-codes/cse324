@@ -42,7 +42,7 @@ gcc lex.yy.c
 ./a.out
 ```
 
-### My First Lex Program
+## My First Lex Program
 
 This program scans the input and identifies different types of tokens.
 
