@@ -21,9 +21,11 @@ Session       : Summer 2026
 ## Index
 
 | Class | Theory | Lab |
-|-----:|--------|-----|
-| 01 | 11-May-26 ( Introduction )                   | 11-May-26  |
-| 02 | - | - |
+|------:|--------------|-----------|
+| 01 | 11 May 2026 — Introduction | 11 May 2026 — File operations |
+| 02 | 13 May 2026 — Intermediate Code generator | 18 May 2026 — Lex program basics |
+| 03 | 18 May 2026 — First Set | — |
+| 04 | 20 May 2026 — Follow Set | — |
 
 
 
