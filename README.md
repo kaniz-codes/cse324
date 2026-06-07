@@ -26,7 +26,7 @@ Session       : Summer 2026
 | 02 | 13 May 2026 — Intermediate Code generator | 18 May 2026 — Lex program basics |
 | 03 | 18 May 2026 — First Set | — |
 | 04 | 20 May 2026 — Follow Set | — |
-
+| 05 | 03 June 2026 — Left Factoring | — |
 
 
 ## What is Compiler?
