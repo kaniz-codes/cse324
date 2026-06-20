@@ -6,6 +6,7 @@ using namespace std;
 
 int main() {
     string word;
+    bool found = false;
 
     string keywords[] = {
         "int", "float", "char", "double", "if", "else", 
@@ -19,10 +20,15 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         if (word == keywords[i]) {
-            cout << "This is a Keyword.";
+            found = true;
+            break;
         }
     }
-    cout << "This is not a Keyword.";
 
+    if (found) {
+        cout << "This is a Keyword.";
+    } else {
+        cout << "This is not a Keyword.";
+    }
 }
 
