@@ -1,37 +1,39 @@
 // Write a C/C++ program to recognize valid and invalid identifier.
 #include <iostream>
 #include <string>
-
 using namespace std;
 
-int main() {
-    string word;
+int main()
+{
+    string id;
+    int valid = 1;
+
     cout << "Enter an identifier: ";
-    cin >> word;
+    cin >> id;
 
-    bool isValid = true;
+    if (!((id[0] >= 'A' && id[0] <= 'Z') ||
+          (id[0] >= 'a' && id[0] <= 'z') ||
+           id[0] == '_'))
+    {
+        valid = 0;
+    }
 
-    if (word.empty()) {
-        isValid = false;
-    } else {
-        char first = word;
-        if (!isalpha(first) && first != '_') {
-            isValid = false;
-        }
-
-        for (int i = 1; i < word.length(); i++) {
-            if (!isalnum(word[i]) && word[i] != '_') {
-                isValid = false;
-                break;
-            }
+    for (int i = 1; i < id.length(); i++)
+    {
+        if (!((id[i] >= 'A' && id[i] <= 'Z') ||
+              (id[i] >= 'a' && id[i] <= 'z') ||
+              (id[i] >= '0' && id[i] <= '9') ||
+               id[i] == '_'))
+        {
+            valid = 0;
+            break;
         }
     }
 
-    if (isValid) {
-        cout << "Valid Identifier" << endl;
-    } else {
-        cout << "Invalid Identifier" << endl;
-    }
+    if (valid == 1)
+        cout << "Valid identifier";
+    else
+        cout << "Invalid identifier";
 
     return 0;
 }
