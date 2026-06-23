@@ -23,10 +23,14 @@ Session       : Summer 2026
 | Class | Theory | Lab |
 |------:|--------------|-----------|
 | 01 | 11 May 2026 — Introduction | 11 May 2026 — File operations |
-| 02 | 13 May 2026 — Intermediate Code generator | 18 May 2026 — Lex program basics |
+| 02 | 13 May 2026 — Translation of statement | 18 May 2026 — Lex program basics |
 | 03 | 18 May 2026 — First Set | — |
 | 04 | 20 May 2026 — Follow Set | — |
 | 05 | 03 June 2026 — Left Factoring | — |
+| 06 | 08 June 2026 — Left Recursion | — |
+| 07 | 10 June 2026 — Parsing Table, LL1 Parsing | — |
+| 08 | 15 June 2026 — NFA & DFA, Kleen closure | — |
+| 09 | 15 June 2026 — ENFA to DFA, NFA to DFA | — |
 
 
 ## What is Compiler?
