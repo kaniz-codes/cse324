@@ -1,4 +1,4 @@
-# cse324 : Compiler Design Lab
+# CSE 324: Compiler Design Lab
 
 CSE 324 contains my notes and lab work as I learn **Compiler design** concepts and building problem-solving skills.
 
@@ -24,13 +24,14 @@ Session       : Summer 2026
 |------:|--------------|-----------|
 | 01 | 11 May 2026 — Introduction | 11 May 2026 — File operations |
 | 02 | 13 May 2026 — Translation of statement | 18 May 2026 — Lex program basics |
-| 03 | 18 May 2026 — First Set | — |
-| 04 | 20 May 2026 — Follow Set | — |
-| 05 | 03 June 2026 — Left Factoring | — |
-| 06 | 08 June 2026 — Left Recursion | — |
+| 03 | 18 May 2026 — First Set | 08 June 2026 — First-Follow Code |
+| 04 | 20 May 2026 — Follow Set | 15 June 2026 — Infix to Postfix code|
+| 05 | 03 June 2026 — Left Factoring | 22 June 2026 — Lab Mid |
+| 06 | 08 June 2026 — Left Recursion | 06 July 2026 — LL(1) Parsing code |
 | 07 | 10 June 2026 — Parsing Table, LL1 Parsing | — |
 | 08 | 15 June 2026 — NFA & DFA, Kleen closure | — |
 | 09 | 15 June 2026 — ENFA to DFA, NFA to DFA | — |
+| 10 | 06 July 2026 — Bottom Up parsing, Shift reducee parsing | — |
 
 
 ## What is Compiler?
