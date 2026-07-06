@@ -6,7 +6,7 @@
 		"**/CVS": true,
 		"**/.DS_Store": true,
 		"**/Thumbs.db": true,
-		"**/*.exe": true,
+		"**/.exe": true,
 		"**/.gitignore": true,
 		"**/desktop.ini": true,
 		".old": true,

@@ -4,11 +4,13 @@ using namespace std;
 
 string p[20];
 int n;
-char result[20];
+char result[50];
 int m = 0;
 
 void add(char c)
 {
+    if (c == '#') return; // Do not add epsilon in FOLLOW
+
     for (int i = 0; i < m; i++)
     {
         if (result[i] == c)
@@ -20,9 +22,7 @@ void add(char c)
 
 int isNonTerminal(char c)
 {
-    if (c >= 'A' && c <= 'Z')
-        return 1;
-    return 0;
+    return (c >= 'A' && c <= 'Z');
 }
 
 void first(char c)
@@ -40,6 +40,26 @@ void first(char c)
             else
             {
                 first(x);
+            }
+        }
+    }
+}
+
+void addFirstToFollow(char c)
+{
+    for (int i = 0; i < n; i++)
+    {
+        if (p[i][0] == c)
+        {
+            char x = p[i][2];
+
+            if (!isNonTerminal(x))
+            {
+                add(x);
+            }
+            else
+            {
+                addFirstToFollow(x);
             }
         }
     }
@@ -66,13 +86,15 @@ void follow(char c)
                     }
                     else
                     {
-                        first(next);
+                        addFirstToFollow(next);
                     }
                 }
                 else
                 {
                     if (p[i][0] != c)
+                    {
                         follow(p[i][0]);
+                    }
                 }
             }
         }
@@ -86,7 +108,7 @@ int main()
     cout << "Enter number of productions: ";
     cin >> n;
 
-    cout << "Enter productions:" << endl;
+    cout << "//Use # for epsilon" << endl;
 
     for (int i = 0; i < n; i++)
     {
