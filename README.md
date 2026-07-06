@@ -1,6 +1,6 @@
 # CSE 324: Compiler Design Lab
 
-CSE 324 contains my notes and lab work as I learn **Compiler design** concepts and building problem-solving skills.
+This repository contains my CSE 324 Compiler Design Lab work, including C/C++ programs, Lex programs, class practice, and topic-wise notes.
 
 
 ## Course Info
@@ -22,12 +22,12 @@ Session       : Summer 2026
 
 | Class | Theory | Lab |
 |------:|--------------|-----------|
-| 01 | 11 May 2026 — Introduction | 11 May 2026 — File operations |
-| 02 | 13 May 2026 — Translation of statement | 18 May 2026 — Lex program basics |
+| 01 | 11 May 2026 — Introduction | 11 May 2026 — [File operations](lab-01-file-operations) |
+| 02 | 13 May 2026 — Translation of statement | 18 May 2026 — [Lex program basics](lab-02-lex-basics) |
 | 03 | 18 May 2026 — First Set | 08 June 2026 — First-Follow Code |
 | 04 | 20 May 2026 — Follow Set | 15 June 2026 — Infix to Postfix code|
 | 05 | 03 June 2026 — Left Factoring | 22 June 2026 — Lab Mid |
-| 06 | 08 June 2026 — Left Recursion | 06 July 2026 — LL(1) Parsing code |
+| 06 | 08 June 2026 — Left Recursion | 06 July 2026 — [LL(1) Parsing code](lab-06-ll1-parsing) |
 | 07 | 10 June 2026 — Parsing Table, LL1 Parsing | — |
 | 08 | 15 June 2026 — NFA & DFA, Kleen closure | — |
 | 09 | 15 June 2026 — ENFA to DFA, NFA to DFA | — |
