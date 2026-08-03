@@ -28,11 +28,16 @@ Session       : Summer 2026
 | 04 | 20 May 2026 — Follow Set | 15 June 2026 — Infix to Postfix code|
 | 05 | 03 June 2026 — Left Factoring | 22 June 2026 — Lab Mid |
 | 06 | 08 June 2026 — Left Recursion | 06 July 2026 — [LL(1) Parsing code](lab-06-ll1-parsing) |
-| 07 | 10 June 2026 — Parsing Table, LL1 Parsing | — |
-| 08 | 15 June 2026 — NFA & DFA, Kleen closure | — |
-| 09 | 15 June 2026 — ENFA to DFA, NFA to DFA | — |
-| 10 | 06 July 2026 — Bottom Up parsing, Shift reducee parsing | — |
-
+| 07 | 10 June 2026 — Parsing Table, LL1 Parsing | 20 July 2026 — Recursive Descent Parsing  |
+| 08 | 15 June 2026 — NFA & DFA, Kleen closure | 27 July 2026 — Predictive Parsing |
+| 09 | 17 June 2026 — ENFA to DFA, NFA to DFA | 03 August 2026 — Remove Single Line Comments from Input file |
+| 10 | 06 July 2026 — **Final:** Bottom Up parsing, Shift reduce parsing | — |
+| 11 | 08 July 2026 — Conflicts during Shift-Reduce Parsing | — |
+| 12 | 20 July 2026 — CLR(1)/LR(1) | — |
+| 13 | 22 July 2026 — Semantic Analysis | — |
+| 14 | 27 July 2026 — Synthesized Attributes | — |
+| 15 | 29 July 2026 — Intermediate Representation (IR) | — |
+| 15 | 03 August 2026 — Quadruple, Triples, Indirect Triples | — |
 
 ## What is Compiler?
 A compiler is a system software that translates a program written in a high-level programming language into low-level code, such as assembly language or machine code.
