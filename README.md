@@ -28,7 +28,7 @@ Session       : Summer 2026
 | 04 | 20 May 2026 — Follow Set | 15 June 2026 — Infix to Postfix code|
 | 05 | 03 June 2026 — Left Factoring | 22 June 2026 — Lab Mid |
 | 06 | 08 June 2026 — Left Recursion | 06 July 2026 — [LL(1) Parsing code](lab-06-ll1-parsing) |
-| 07 | 10 June 2026 — Parsing Table, LL1 Parsing | 20 July 2026 — Recursive Descent Parsing  |
+| 07 | 10 June 2026 — Parsing Table, LL1 Parsing | 20 July 2026 — [Recursive Descent Parsing](lab-07-recursive-descent-parsing)  |
 | 08 | 15 June 2026 — NFA & DFA, Kleen closure | 27 July 2026 — Predictive Parsing |
 | 09 | 17 June 2026 — ENFA to DFA, NFA to DFA | 03 August 2026 — Remove Single Line Comments from Input file |
 | 10 | 06 July 2026 — **Final:** Bottom Up parsing, Shift reduce parsing | — |
