@@ -25,7 +25,7 @@ Session       : Summer 2026
 | 01 | 11 May 2026 — Introduction | 11 May 2026 — [File operations](lab-01-file-operations) |
 | 02 | 13 May 2026 — Translation of statement | 18 May 2026 — [Lex program basics](lab-02-lex-basics) |
 | 03 | 18 May 2026 — First Set | 08 June 2026 — [First-Follow Code](lab-03-first-follow) |
-| 04 | 20 May 2026 — Follow Set | 15 June 2026 — Infix to Postfix code|
+| 04 | 20 May 2026 — Follow Set | 15 June 2026 — [Infix to Postfix code](lab-04-infix-postfix) |
 | 05 | 03 June 2026 — Left Factoring | 22 June 2026 — Lab Mid |
 | 06 | 08 June 2026 — Left Recursion | 06 July 2026 — [LL(1) Parsing code](lab-06-ll1-parsing) |
 | 07 | 10 June 2026 — Parsing Table, LL1 Parsing | 20 July 2026 — [Recursive Descent Parsing](lab-07-recursive-descent-parsing)  |
