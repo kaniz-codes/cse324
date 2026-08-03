@@ -1,3 +1,6 @@
+/*Write a C/C Program to remove single line comment from the source program.
+It reads charecter from the input.txt and write the result to output.txt file.*/
+
 #include<iostream>
 #include<fstream>
 #include<string>
