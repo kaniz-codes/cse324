@@ -30,9 +30,9 @@ Session       : Summer 2026
 | 06 | 08 June 2026 — Left Recursion | 06 July 2026 — [LL(1) Parsing code](lab-06-ll1-parsing) |
 | 07 | 10 June 2026 — Parsing Table, LL1 Parsing | 20 July 2026 — [Recursive Descent Parsing](lab-07-recursive-descent-parsing)  |
 | 08 | 15 June 2026 — NFA & DFA, Kleen closure | 27 July 2026 — [Predictive Parsing](lab-08-predictive-parsing) |
-| 09 | 17 June 2026 — ENFA to DFA, NFA to DFA | 03 August 2026 — [Remove Single Line Comments from Input file](lab-09-remove-single line-comments) |
-| 10 | 06 July 2026 — **Final-Term:** Bottom Up parsing, Shift reduce parsing | — |
-| 11 | 08 July 2026 — Conflicts during Shift-Reduce Parsing | — |
+| 09 | 17 June 2026 — ENFA to DFA, NFA to DFA | 03 August 2026 — [Remove Single Line Comments from Input file](lab-09-remove-single-line-comments) |
+| 10 | 06 July 2026 — **Final-Term:** Bottom Up parsing, Shift reduce parsing | 10 August 2026 — [Three Address Code](lab-10-three-address-code) |
+| 11 | 08 July 2026 — Conflicts during Shift-Reduce Parsing | 17 August 2026 — [Lab Final](lab-11-final) |
 | 12 | 20 July 2026 — CLR(1)/LR(1) | — |
 | 13 | 22 July 2026 — Semantic Analysis | — |
 | 14 | 27 July 2026 — Synthesized Attributes | — |
